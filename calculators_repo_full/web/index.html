@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Веб-калькулятор</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <h1>Веб-калькулятор</h1>
+  <div class="row">
+    <input id="a" type="number" step="any" placeholder="Число A">
+    <select id="op">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input id="b" type="number" step="any" placeholder="Число B">
+  </div>
+  <div class="row">
+    <button id="calc">Посчитать</button>
+    <button id="clear">Очистить</button>
+  </div>
+  <div id="res" class="result">Результат: —</div>
+  <footer>Многоязычные калькуляторы — демонстрация</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
